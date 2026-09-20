@@ -1,0 +1,16 @@
+2026-09-20T13:04:01Z linux-sec-node sshd[4100]: Failed password for invalid user root from 192.168.1.105 port 49150 ssh2
+2026-09-20T13:04:03Z linux-sec-node sshd[4101]: Failed password for invalid user root from 192.168.1.105 port 49151 ssh2
+2026-09-20T13:04:05Z linux-sec-node sshd[4102]: Failed password for invalid user root from 192.168.1.105 port 49152 ssh2
+2026-09-20T13:04:08Z linux-sec-node sshd[4103]: Failed password for invalid user admin from 192.168.1.105 port 49153 ssh2
+2026-09-20T13:04:10Z linux-sec-node sshd[4104]: Failed password for invalid user admin from 192.168.1.105 port 49154 ssh2
+2026-09-20T13:04:12Z linux-sec-node sshd[4105]: Failed password for invalid user admin from 192.168.1.105 port 49155 ssh2
+2026-09-20T13:04:15Z linux-sec-node sshd[4106]: Failed password for user admin from 192.168.1.105 port 49156 ssh2
+2026-09-20T13:04:18Z linux-sec-node sshd[4107]: Failed password for user admin from 192.168.1.105 port 49157 ssh2
+2026-09-20T13:04:22Z linux-sec-node sshd[4108]: Failed password for user admin from 192.168.1.105 port 49158 ssh2
+2026-09-20T13:06:45Z linux-sec-node sshd[4189]: Accepted password for admin from 192.168.1.105 port 49200 ssh2
+2026-09-20T13:06:46Z linux-sec-node systemd[1]: Started Session 42 of user admin.
+2026-09-20T13:07:10Z linux-sec-node sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+2026-09-20T13:07:11Z linux-sec-node pam_unix(sudo:session): session opened for user root by admin(uid=0)
+2026-09-20T13:08:30Z linux-sec-node systemd[1]: Created session 43 of user root.
+2026-09-20T13:09:12Z linux-sec-node scp[4210]: Uploading /etc/shadow.bak to 185.17.42.109:443
+2026-09-20T13:10:00Z linux-sec-node sshd[4189]: Received disconnect from 192.168.1.105 port 49200:11: disconnected by user

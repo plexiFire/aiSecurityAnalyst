@@ -110,7 +110,7 @@ class ApacheParser(BaseParser):
             match = combined_regex.search(line)
             if match:
                 ip, date_str, method, uri, status, bytes_sent = match.groups()
-                severity = "HIGH" if int(status) >= 500 or "cmd=" in uri or "eval(" in uri or "shell" in uri else ("MEDIUM" if int(status) >= 400 else "LOW")
+                severity = "HIGH" if int(status) >= 500 or any(kw in uri.lower() for kw in ["cmd=", "exec=", "shell", "passwd", "system("]) else ("MEDIUM" if int(status) >= 400 else "LOW")
                 events.append({
                     "investigation_id": investigation_id,
                     "timestamp": f"2026-09-20T14:{(index // 60) % 60:02d}:{index % 60:02d}.000Z",

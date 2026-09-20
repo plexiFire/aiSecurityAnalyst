@@ -10,7 +10,7 @@
       "userIdentity": {
         "type": "IAMUser",
         "userName": "dev_temp_user",
-        "accessKeyId": "AKIAIOSFODNN7EXAMPLE"
+        "accessKeyId": "SAMPLE_IAM_ACCESS_KEY_ID_REDACTED"
       },
       "responseElements": { "ConsoleLogin": "Success" }
     },

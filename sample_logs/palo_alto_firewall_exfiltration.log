@@ -1,0 +1,5 @@
+2026-09-20T15:00:01Z PAN-OS src=10.0.4.15 dst=10.0.0.1 src_port=49200 dst_port=80 action=allow proto=tcp bytes_sent=512 summary="Port scan probe"
+2026-09-20T15:00:02Z PAN-OS src=10.0.4.15 dst=10.0.0.2 src_port=49201 dst_port=80 action=allow proto=tcp bytes_sent=512 summary="Port scan probe"
+2026-09-20T15:00:03Z PAN-OS src=10.0.4.15 dst=10.0.0.5 src_port=49202 dst_port=443 action=allow proto=tcp bytes_sent=512 summary="Port scan probe"
+2026-09-20T15:05:00Z PAN-OS src=10.0.4.15 dst=198.51.100.200 src_port=52100 dst_port=443 action=allow proto=tcp bytes_sent=452000000 summary="High volume data exfiltration payload"
+2026-09-20T15:10:00Z PAN-OS src=10.0.4.15 dst=198.51.100.200 src_port=52101 dst_port=443 action=deny proto=tcp bytes_sent=0 summary="Threat signature match: Ransomware C2 Channel"

@@ -1,0 +1,7 @@
+2026-09-20T16:00:10.000Z | EventID: 4625 | Provider: Microsoft-Windows-Security-Auditing | LogonType: 3 | TargetUserSid: S-1-5-21 | Account Name: Administrator | Workstation: WORKSTATION-09 | Source IP: 10.0.4.15 | Status: 0xC000006D
+2026-09-20T16:00:15.000Z | EventID: 4625 | Provider: Microsoft-Windows-Security-Auditing | LogonType: 3 | TargetUserSid: S-1-5-21 | Account Name: Administrator | Workstation: WORKSTATION-09 | Source IP: 10.0.4.15 | Status: 0xC000006D
+2026-09-20T16:01:00.000Z | EventID: 4624 | Provider: Microsoft-Windows-Security-Auditing | LogonType: 10 (RemoteDesktop) | Account Name: Administrator | ComputerName: DC-01.corp.internal | Source IP: 10.0.4.15
+2026-09-20T16:02:12.000Z | EventID: 4672 | Provider: Microsoft-Windows-Security-Auditing | Account Name: Administrator | Privileges Assigned: SeDebugPrivilege, SeSecurityPrivilege, SeTakeOwnershipPrivilege
+2026-09-20T16:03:00.000Z | EventID: 7045 | Provider: Service Control Manager | Service Name: MimikatzDrv | Image Path: C:\Windows\Temp\mimikatz.exe | Service Type: kernel driver
+2026-09-20T16:04:10.000Z | EventID: 4720 | Provider: Microsoft-Windows-Security-Auditing | Target Account Name: back_admin | Creator User Name: Administrator | Domain: CORP
+2026-09-20T16:05:00.000Z | EventID: 1102 | Provider: Microsoft-Windows-Eventlog | Audit Log Cleared | Account Name: Administrator | Domain: CORP
